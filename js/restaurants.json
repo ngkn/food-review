@@ -1,0 +1,90 @@
+[
+    {
+       "restaurantName":"Bronco",
+       "address":"39 Rue des Petites Écuries, 75010 Paris",
+       "lat":48.8737815,
+       "long":2.3501649,
+       "ratings":[
+          {
+             "stars":4,
+             "comment":"Un excellent restaurant, j'y reviendrai ! Par contre il vaut mieux aimer la viande."
+          },
+          {
+             "stars":5,
+             "comment":"Tout simplement mon restaurant préféré !"
+          }
+       ]
+    },
+    {
+       "restaurantName":"Babalou",
+       "address":"4 Rue Lamarck, 75018 Paris",
+       "lat":48.8865035,
+       "long":2.3442197,
+       "ratings":[
+          {
+             "stars":5,
+             "comment":"Une minuscule pizzeria délicieuse cachée juste à côté du Sacré choeur !"
+          },
+          {
+             "stars":3,
+             "comment":"J'ai trouvé ça correct, sans plus"
+          }
+       ]
+    },
+    {
+      "restaurantName":"Polissons",
+      "address":"35 Rue Ramey, 75018 Paris",
+      "lat":48.896004,
+      "long":2.344708,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Repas vraiment très bon, le cadre est épuré dans l'air du temps et les plats sont vraiment bons."
+         },
+         {
+            "stars":5,
+            "comment":"Des produits de grande qualité, cuisinés avec goût et générosité. On sent que les cuisiniers veulent nous faire plaisir."
+         },
+         {
+            "stars":3,
+            "comment":"Nous étions en famille, 5 personnes, la nourriture était certes très correcte, de bons produits, mais les portions ridiculement petites. Le menu est mensonger et les serveurs maladroits, faussement chics et gentils."
+         }
+      ]
+   },
+   {
+      "restaurantName":"58 Tour Eiffel Restaurant",
+      "address":"Tour Eiffel, Champ de Mars, 75007 Paris",
+      "lat":48.865302,
+      "long":2.295219,
+      "ratings":[
+         {
+            "stars":1,
+            "comment":"Menu décevant  pour une brasserie d'un chef étoilé. Au niveau des boissons - pas de choix au niveau des vins avec un vin rouge et un vin blanc sans caractère, une bouteille d'eau non fraîche."
+         },
+         {
+            "stars":5,
+            "comment":"Très cher niveau prix, mais si vous souhaitez mettre ce budget alors l'expérience est unique."
+         },
+         {
+            "stars":4,
+            "comment":"Petite appréhension après avoir lu certains avis négatifs. En fait tout s'est très bien passé et nous avons trouvé la nourriture vraiment excellente ."
+         }
+      ]
+   },   
+   {
+      "restaurantName":"Terrasse de l'Alcazar",
+      "address":"62 Rue Mazarine, 75006 Paris",
+      "lat":48.865195,
+      "long":2.336386,
+      "ratings":[
+         {
+            "stars":2,
+            "comment":"Service déplorable. J'y allais souvent pour le brunch du dimanche matin, ce jusqu'à hier."
+         },
+         {
+            "stars":3,
+            "comment":"Dommage que le volume de la musique ait gâché, notre dîner, c'est d'autant plus dommage que l'endroit en terrasse est très sympa."
+         }
+      ]
+   }
+ ]

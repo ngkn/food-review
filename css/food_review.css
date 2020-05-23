@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Hot Pizza";
+    src: url("../fonts/hotpizza.ttf");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    border-bottom: 1px solid grey
+}
+h1{
+    font-family: "Hot Pizza",Tahoma, sans-serif;
+    color: rgb(29, 102, 142);
+    margin-left: 1%;
+}
+hr{
+    margin-bottom: 0px;
+}
+.container{
+    display: flex;
+}
+.navigation-list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 50%;
+}
+.navigation-list .navigation-item{
+    margin-top: 15%;
+    margin-left: 65%;
+}
+.navigation-list .navigation-item a{
+    text-decoration: none;
+    color: #505050;
+}
+#restaurants{
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 27%;
+}
+#map{
+    height: 635px;
+    border-left: 1px solid grey;
+}
+.map-search{
+    width: 100%;
+}
+#search{
+    width: 99.6%;
+    height: 4%;
+}
+#main{
+    background-color: rgb(29, 102, 142);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#title-filter{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: aliceblue;
+}
+#filter-restaurant{
+    padding-top: 1%;
+}
+.name-restaurant{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+.number-average-ratings{
+    font-size: 12px;
+    color: rgb(145, 104, 0);
+}
+
+.number-total-average{
+    font-size: 12px;
+    color: rgb(109, 108, 105);    
+}
+.address-restaurant{
+    font-size: 13px;
+    color: rgb(109, 108, 105);  
+}
+.rating-restaurant{
+    display: flex;
+    align-items: center;
+}
+.img-stars-rating{
+    margin-bottom: 130px;
+}
+.ratings-restaurant{
+    border-bottom: 1px solid #505050;
+    text-align: left;
+    padding-left: 6%;
+    margin-top: 1%;
+}
+.comment-rating{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+#hr-comment{
+        height: none;
+        border: none;
+        padding-bottom: 2%;
+        border-top: 1px dashed grey;
+}
+.infos-rating{
+    align-items: center;
+}
+.info-restaurant{
+    text-align: left;
+    flex: 1;
+    padding-left: 1%;
+}
+.img-restaurant{
+    text-align: right;
+    margin: 5px;
+}
+.details-restaurant{
+    display: flex;
+    border-bottom: 1px solid #505050;
+}
+#list-restaurants{
+    height: 600px;
+    overflow: auto;
+}
+.add-comment{
+    background-color: rgb(29, 102, 142);
+    color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 1%;
+}
+.hr-form{
+    background-color: #ffffff;
+    margin-top: 0px;
+    width: 50%;
+}
+#comment-box, #restaurant-box{
+    width: 620px;
+    height: 320px;
+    background:  rgba(29, 102, 142, 0.9);
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    display: none;
+}
+.title-icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.close-icon{
+    position: absolute;
+    margin-left: 280px;
+}
+textarea{
+    resize: none;
+}
+.submit-class{
+    margin-top: 4%;
+}
+#comment-box input[type="submit"], #restaurant-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    background: rgb(145, 189, 56);
+    color: #ffffff;
+    font-size: 15px;
+}
+#comment-box input[type="submit"]:hover, #restaurant-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(104, 133, 47);
+}
+
+a{ text-decoration: none;}
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:black; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:black; }
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(128, 128, 128);
+    border-radius: 3px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(185, 184, 184);
+    border-radius: 10px;
+  }

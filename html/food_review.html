@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="../css/food_review.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>foodReview</title>
+  </head>
+  <body>
+    <header>
+      <img src="../img/logo.png" alt="logo" />
+      <h1>Food Review</h1>
+      <ul class="navigation-list">
+        <li class="navigation-item"><a href="#">Home</a></li>
+        <li class="navigation-item"><a href="#">About</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <section id="restaurants">
+        <div id="main">
+          <span id="title-filter">Note au moins</span>
+          <div id="filter-restaurant"></div>
+        </div>
+        <div id="list-restaurants"></div>
+      </section>
+      <div class="map-search">
+        <input
+          class="form-search"
+          id="search"
+          type="text"
+          placeholder="Rechercher un restaurant..."
+        />
+        <section id="map"></section>
+      </div>
+
+      <!-- Form restaurant -->
+      <div id="restaurant-box">
+        <div class="title-icon">
+          <a href="#" class="close-icon"><img src="../img/close-icon.png" /></a>
+          <h3 id="title-box-restaurant">Ajouter un restaurant</h3>
+        </div>
+        <hr class="hr-form" />
+        <form id="form-restaurant">
+          <p>Nom</p>
+          <input type="text" size="30" name="nameRestaurant" required />
+          <p>Adresse</p>
+          <input type="text" size="50" name="addressRestaurant" required />
+          <div class="submit-class">
+            <input type="submit" name="submit" value="Envoyer" />
+          </div>
+        </form>
+      </div>
+      <!-- Form avis -->
+      <div id="comment-box">
+        <div class="title-icon">
+          <a href="#" class="close-icon"><img src="../img/close-icon.png" /></a>
+          <h3 id="title-box"></h3>
+        </div>
+        <hr class="hr-form" />
+        <form id="form-comment">
+          <p>Commentaire</p>
+          <textarea
+            name="commentText"
+            cols="60"
+            rows="4"
+            placeholder="Votre commentaire..."
+            required
+          ></textarea>
+          <p>Note</p>
+          <select name="note" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <div class="submit-class">
+            <input type="submit" name="submit" value="Envoyer" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/initialisation_map.js"></script>
+    <script src="../js/food_review.js"></script>
+    <script src="../js/elements.js"></script>
+    <script src="../js/display.js"></script>
+    <script src="../js/event.js"></script>
+    <script src="../js/google_places.js"></script>
+  </body>
+</html>
